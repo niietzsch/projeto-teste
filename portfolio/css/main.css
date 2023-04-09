@@ -35,6 +35,9 @@
     display: block;
     margin: 55px auto 0;
   }
+  .nn-menu {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 576px) {
@@ -44,6 +47,24 @@
 }
 
 @media screen and (min-width: 992px) {
+  .nn-menu {
+    display: table; /*Se adequa ao tamanho*/
+    float: left; /*Vai para o lado esquerdo*/
+    height: 110px;
+    margin-left: 30px;
+  }
+  .nn-menu a {
+    text-decoration: none; /*Sem aquela linha embaixo do texto*/
+    font-family: Open sans-serif;
+    font-size: 16px;
+    color: #bcbcbc;
+    text-transform: lowercase; /*Vai ficar tudo minúscula*/
+    display: inline-block; /* Vão ficar alinhadas lado a lado*/
+    padding: 0 20px;
+  }
+  .nn-menu a:first-child {
+    padding: 0;
+  }
 }
 
 @media screen and (min-width: 1200px) {
