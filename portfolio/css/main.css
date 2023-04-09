@@ -61,9 +61,10 @@
     text-transform: lowercase; /*Vai ficar tudo minúscula*/
     display: inline-block; /* Vão ficar alinhadas lado a lado*/
     padding: 0 20px;
+    margin-top: 50px;
   }
   .nn-menu a:first-child {
-    padding: 0;
+    padding: 0 20px;
   }
 }
 
